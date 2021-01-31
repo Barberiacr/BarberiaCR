@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 51, 26);
+}
+
+/*LOGO*/
+.logo{
+    margin: 0.5px;
+}
+
+/*MENU*/
+nav{
+    text-align: center;
+    margin-bottom: 85px;
+}
+li{
+    padding: 25px;
+}
+.inicio{
+    padding: 23px;
+    color:white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgb(0, 83, 38);
+}
+
+/*IMG PLAY STORE*/
+.playstoreimg{
+    display: block;  
+    margin: auto;
+}
+
+/*TEXTO ANDROID*/
+.androiddiv{
+    padding: 23px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.android{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 1px 20px black;
+}
+.android:hover{
+    background-color:  rgb(0, 83, 38);
+}
+
+/*IMG APP STORE*/
+.appstoreimg{
+    display: block;
+    margin: auto;
+}
+
+
+/*TEXTO IOS*/
+.iosdiv{
+    padding: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.ios{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white ;
+    box-shadow: 0px 1px 20px black;
+}
+.ios:hover{
+    background-color: rgb(0, 83, 38) ;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    margin-top: 156px;
+    background-color:#7e7e7e;
+    color: white;
+    padding: 2px ;
+    position: fixed;
+    bottom: 0;  
+}
+.icon-phone{
+    margin-left: 20%; 
+}
+.icon-envelop{
+   margin-left: 1%;
+}
+.icon-instagram{
+    margin-left: 2%;
+    color: white;
+}
+
+
