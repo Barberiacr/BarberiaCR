@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 51, 26);
+}
+body::-webkit-scrollbar{
+    background-color: none;
+    width: 7px;
+    box-shadow: 0px 0px 20px 20px black ;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: teal;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(0, 51, 26);
+}
+
+
+
+/*LOGO*/
+.logodiv{
+    display: block;
+    text-align: center;
+}
+
+.logo{
+    margin: 0.5px auto;
+}
+
+
+/*MENU DE NAVEGACION*/
+.header2{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+.turnos a{
+   color: rgb(255, 209, 139);
+}
+
+nav ul{
+    width: auto;
+    background-color: rgb(0, 51, 26);
+    text-align: center;
+    margin: 0;
+    padding: 0px;   
+}
+ul li:hover{
+    background-color: rgb(0, 83, 38);
+    transition: all .2s;
+}
+nav ul li{
+    
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 25px;
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+}
+
+
+div p{
+    display: none;
+}
+
+/*FOTOS*/
+.foto2, .foto3, .foto4{
+    display: none;
+}
+.pelu{
+    margin-top: 10px;
+}
+
+/*SCROLL BAR*/
+.scrollbar{
+    display: none;
+}
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    background-color:#7e7e7e;
+    color: rgb(255, 255, 255);
+    padding: 2px ;
+    position: fixed;
+    bottom: 0;
+    border-radius: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+.icon-phone{
+    margin-left: 3%;   
+}
+.icon-envelop{
+   margin-left: 1%;
+}
+.icon-instagram{
+    margin-left: 2%;
+    color: white;
+}
+
+@media screen and (max-width:1230px){
+    .pelu{
+        display: none;
+    }
+    .foto2{
+        display: block;
+    }
+    #foto2{
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width:820px){
+    .foto2{
+        display: none;
+    }
+    .foto3{
+        display: block;
+    }
+    #foto3{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .foto3{
+        display: none;
+    }
+    
+
+  
+    .icon-phone{
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+        margin-top: 2px;
+    }
+    .icon-envelop{
+        display: block;
+        text-align: center;
+    }
+    .icon-instagram{
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 3px;
+    }
+
+    .logo{
+        transform: translateY(-20px);
+    }
+
+
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: block;
+    }
+
+
+    #icon-menu{
+        display: block;
+        text-align: right;
+    }
+    .icon-menu{
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        margin-right: 10px;
+    }
+    
+
+
+    .header2 nav{
+        transform: translateX(-100%);
+        display: none;
+    }
+    
+    #menu:checked ~ nav{
+        display: block;
+        transform: translateX(0%);
+    }
+
+
+    
+    .scrollbar{
+        display: block;
+        width: 100%;
+        height: 420px;
+        margin: 0 auto;
+        margin-top: 5px;
+        background-color: none;
+        overflow-x: scroll;  
+        display: flex;
+        
+    }
+    .scrollbar img{
+        height: 410px;
+        width: auto;
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+     #primerafoto{
+        margin-left: 0px; 
+     }
+    .scrollbar::-webkit-scrollbar{
+        height: 7px;
+        background-color: rgba(255, 255, 255);  
+    }
+    .scrollbar::-webkit-scrollbar-thumb{
+        background-color: rgb(0, 51, 26);
+        border-radius: 10px;
+    }
+    
+
+}
+
+@media screen and (max-height:700px){
+    .scrollbar{
+        height: 380px;
+    }
+    .scrollbar img{
+        height: 370px;
+    }
+}
+@media screen and (max-height:660px){
+    .scrollbar{
+        height: 340px;
+    }
+    .scrollbar img{
+        height: 330px;
+    }
+}
+
+
+
+
+
+
+
