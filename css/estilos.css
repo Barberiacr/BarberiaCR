@@ -189,6 +189,10 @@ footer a{
         margin-right: 10px;
     }
     
+ 
+    *{
+        transition: all .5s;
+    }
 
 
     .header2 nav{
