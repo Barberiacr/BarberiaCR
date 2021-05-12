@@ -87,6 +87,10 @@ footer{
     padding: 2px ;
     position: fixed;
     bottom: 0;  
+    border-radius: 15px;
+}
+footer a{
+    text-decoration: none;
 }
 .icon-phone{
     margin-left: 20%; 
@@ -100,3 +104,106 @@ footer{
 }
 
 
+
+
+@media screen and (max-width:880px){
+    .icon-phone{
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+        margin-top: 2px;
+    }
+    .icon-envelop{
+        display: block;
+        text-align: center;
+    }
+    .icon-instagram{
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 3px;
+    }
+}
+
+
+@media screen and (max-width:520px){
+    .android{
+        font-size: 18px;
+    }
+    .ios{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .android{
+        font-size: 15px;
+    }
+    .ios{
+        font-size: 15px;
+    }
+    
+
+    .playstoreimg{
+        width: 120px ;
+    }
+    .appstoreimg{
+        width: 126px;
+    }
+
+}
+
+
+@media screen and (max-width:400px){
+    .android{
+        font-size: 13px;
+    }
+    .ios{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:350px){
+    .android{
+        font-size: 11px;
+    }
+    .ios{
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-height:840px){
+    nav{
+        margin-bottom: 65px;
+    }
+}
+
+@media screen and (max-height:815px){
+    nav{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-height:780px){
+    nav{
+        margin-bottom: 15px;
+    }
+
+    .playstoreimg{
+        width: 100px ;
+    }
+    .appstoreimg{
+        width: 106px;
+    }
+
+    .androiddiv{
+        margin-bottom: 25px;
+    }
+}
